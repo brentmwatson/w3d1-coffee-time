@@ -37,10 +37,3 @@ class CaffeineTest < MiniTest::Test
     assert trevor.alertness > 0.9
   end
 end
-
-# ~> LoadError
-# ~> cannot load such file -- ./human
-# ~>
-# ~> /Users/brentmwatson/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-# ~> /Users/brentmwatson/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-# ~> /Users/brentmwatson/Documents/TheIronYard/w3d1-coffee-time/tests.rb:3:in `<main>'
